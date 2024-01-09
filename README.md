@@ -1,10 +1,10 @@
 # SDL-3-snippets
-SDL3 meraklısı için müthiş bir içeriğe sahip.<br>
+SDL3 kütüphanesi, meraklısı için müthiş bir içeriğe sahip.<br>
 
-Deneme imkanım oldu ve incelemeye başladım. Verilen emekten etkilenmemek çok zor.<br>
-Bir süre sonra SDL programlama dili ile yazdığınızı sanabilirsiniz.<br>
+3. sürümünde deneme imkanım oldu ve incelemeye-anlamaya çalışıyorum. Verilen emekten etkilenmemek çok zor.<br>
+Bir süre sonra SDL programlama dili ile yazdığınızı sanabilirsiniz. Progamlama dili gibi hissettirebilir<br>
 
-Ben yola C pratiği yapmak ve FFmpeg öğrenmek için çıktım (hobi) şimdilik SDL'deyim. Sanırım biraz yavaşım<br>
+Ben yola C pratiği yapmak ve FFmpeg öğrenmek için çıktım (hobi) şimdilik SDL'deyim. Sanırım biraz yavaş ilerleyeceğim<br>
 
 >Uyarı:<br>
 >- Buradaki kodlar hobi amaçlı tasarlanmıştır.<br>
