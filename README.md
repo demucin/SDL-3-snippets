@@ -1,4 +1,5 @@
 # SDL-3-snippets 
+
 SDL3 kütüphanesi, meraklısı için müthiş bir içeriğe sahip.<br> 
 Geliştirilmekte olan 3. sürümü deneme imkanım oldu ve incelemeye-anlamaya çalışıyorum. Verilen emekten etkilenmemek çok zor.<br> 
 Bir süre sonra SDL programlama dili ile yazdığınızı sanabilirsiniz. Progamlama dili gibi hissettirebilir<br> 
