@@ -15,6 +15,7 @@ Bir süre sonra SDL programlama dili ile yazdığınızı sanabilirsiniz. Progam
 Ben yola C pratiği yapmak ve FFmpeg öğrenmek için çıktım (hobi) şimdilik SDL'deyim. Sanırım biraz yavaş ilerleyeceğim.
 
 <br>
+
 ---
 
 <br>
