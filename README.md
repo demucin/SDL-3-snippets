@@ -2,6 +2,7 @@
 SDL3 kütüphanesi, meraklısı için müthiş bir içeriğe sahip.<br>
 
 3. sürümünde deneme imkanım oldu ve incelemeye-anlamaya çalışıyorum. Verilen emekten etkilenmemek çok zor.<br>
+
 Bir süre sonra SDL programlama dili ile yazdığınızı sanabilirsiniz. Progamlama dili gibi hissettirebilir<br>
 
 Ben yola C pratiği yapmak ve FFmpeg öğrenmek için çıktım (hobi) şimdilik SDL'deyim. Sanırım biraz yavaş ilerleyeceğim<br>
