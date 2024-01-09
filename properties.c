@@ -16,26 +16,35 @@ static void SDLCALL clean_anything_callback(void* userdata, void* value)
     SDL_free(any);
 }
 
-int main()
-{
-    SDL_Init(0);
-    SDL_PropertiesID props = SDL_CreateProperties();
-
+void allocate_memory_1(SDL_PropertiesID *props) {
     anything* width1 = SDL_calloc(1, sizeof(anything));
     width1->some_int = SDL_malloc(sizeof(int));
     *width1->some_int = 91001;
     SDL_Log("Created: %d\n", *width1->some_int);
 
+    SDL_Log("Set %s: %d\n", anything_name, *width1->some_int);
+    SDL_SetPropertyWithCleanup(*props, anything_name, width1, clean_anything_callback, NULL);
+}
+
+void allocate_memory_2(SDL_PropertiesID *props) {
     anything* width2 = SDL_calloc(1, sizeof(anything));
     width2->some_int = SDL_malloc(sizeof(int));
     *width2->some_int = 91002;
     SDL_Log("Created: %d\n", *width2->some_int);
 
-    SDL_Log("Set %s: %d\n", anything_name, *width1->some_int);
-    SDL_SetPropertyWithCleanup(props, anything_name, width1, clean_anything_callback, NULL);
     
     SDL_Log("Reset %s: %d\n", anything_name, *width2->some_int);
-    SDL_SetPropertyWithCleanup(props, anything_name, width2, clean_anything_callback, NULL);
+    SDL_SetPropertyWithCleanup(*props, anything_name, width2, clean_anything_callback, NULL);
+}
+
+
+int main()
+{
+    SDL_Init(0);
+    SDL_PropertiesID props = SDL_CreateProperties();
+
+    allocate_memory_1(&props);
+    allocate_memory_2(&props);
 
     // SDL_DestroyProperties(props);
 
