@@ -27,8 +27,9 @@ Ben yola C pratiği yapmak ve FFmpeg öğrenmek için çıktım (hobi) şimdilik
 > - Dolayısıyla, ciddi bir projede doğrudan kullanılması sakıncalı olabilir.**<br> 
 <br>
 <br>
-Kaynaklar:<br> 
-[SDL](https://libsdl.org/)<br> 
+Kaynaklar:<br>
+
+Library [SDL](https://libsdl.org/)<br> 
 [GitHub](https://github.com/libsdl-org/SDL)<br> 
 
 **İçerik:**
