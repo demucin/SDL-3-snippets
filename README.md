@@ -29,8 +29,8 @@ Ben yola C pratiği yapmak ve FFmpeg öğrenmek için çıktım (hobi) şimdilik
 <br>
 Kaynaklar:<br>
 
-Library [SDL](https://libsdl.org/)<br> 
-[GitHub](https://github.com/libsdl-org/SDL)<br> 
+ [SDL](https://libsdl.org/)<br> 
+ [GitHub](https://github.com/libsdl-org/SDL)<br> 
 
 **İçerik:**
 --
